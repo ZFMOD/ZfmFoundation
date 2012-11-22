@@ -1,22 +1,25 @@
 <article>
  <header>
   <hgroup>
-    <h1>ZfmFoundation</h1>
-
-<small> __This *[Zend Framework 2][ZF2-GitHub]* module provides your application with integration of [Foundation 3][F3-Main], a responsive front-end framework.__
-</hgroup>
+    <h1>ZfmFoundation</h1> 
+    <small> 
+     This __[Zend Framework 2][ZF2-GitHub]__ 
+     module provides your application with integration of 
+     __[Foundation 3][F3-Main]__ , 
+     a responsive front-end framework.
+   </hgroup>
+  <hr/> 
  </header>
  <section>
     <h3>The Grid System</h3>
     <p>
-     <ul>
-      <li>12-column</li>
-      <li>Nests</li>
-      <li>Offsets</li>
-      <li>Centered Columns</li>
-      <li>Mobile Grid</li>
-      <li>Block Grids</li>
-     </ul>  
+    -  
+      - 12-column  
+      - Nests  
+      - Offsets  
+      - Centered Columns  
+      - Mobile Grid  
+      - Block Grids  
     </p>
    </section>
    <section>
@@ -29,8 +32,6 @@
       </dd>
      </dl> 
    </section>
-  </section>
-
 </article>
 [ZF2-Main]: <http://framework.zend.com/>
 [ZF2-GitHub]: <https://github.com/zendframework/zf2.git>
