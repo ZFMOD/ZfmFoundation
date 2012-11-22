@@ -3,7 +3,7 @@
   <hgroup>
     <h1>ZfmFoundation</h1>
 
-<small> __This *Zend Framework 2* module provides your application with integration of [Foundation 3][F3], a responsive front-end framework.__
+<small> __This *Zend Framework 2* module provides your application with integration of [Foundation 3][F3-Main], a responsive front-end framework.__
 </hgroup>
  </header>
  <section>
