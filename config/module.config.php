@@ -1,23 +1,13 @@
 <?php
 return array(
-    'controllers' => array(
-        'invokables' => array(
-            'ZendSkeletonModule\Controller\Skeleton' => 'ZendSkeletonModule\Controller\SkeletonController',
-        ),
-    ),
     'router' => array(
         'routes' => array(
-            'module-name-here' => array(
+            'mdn-module' => array(
                 'type'    => 'Literal',
                 'options' => array(
                     // Change this to something specific to your module
-                    'route'    => '/module-specific-root',
+                    'route'    => '/mdn',
                     'defaults' => array(
-                        // Change this value to reflect the namespace in which
-                        // the controllers for your module are found
-                        '__NAMESPACE__' => 'ZendSkeletonModule\Controller',
-                        'controller'    => 'Skeleton',
-                        'action'        => 'index',
                     ),
                 ),
                 'may_terminate' => true,
@@ -44,7 +34,7 @@ return array(
     ),
     'view_manager' => array(
         'template_path_stack' => array(
-            'ZendSkeletonModule' => __DIR__ . '/../view',
+           __DIR__ . '/../view',
         ),
     ),
 );
